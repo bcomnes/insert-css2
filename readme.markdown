@@ -1,10 +1,8 @@
-[![NPM version](http://img.shields.io/npm/v/insert-css.svg)](https://www.npmjs.org/package/insert-css)
+[![NPM version](http://img.shields.io/npm/v/insert-css2.svg)](https://www.npmjs.org/package/insert-css2)
 
-# insert-css
+# insert-css2
 
-insert a string of css into the `<head>`
-
-[![browser support](https://ci.testling.com/substack/insert-css.png)](https://ci.testling.com/substack/insert-css)
+insert a string of css into the `<head>`. Maintenance fork.
 
 # example
 

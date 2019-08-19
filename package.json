@@ -1,38 +1,26 @@
 {
-    "name": "insert-css",
+    "name": "insert-css2",
     "version": "2.0.0",
     "description": "insert a string of css into the <head>",
     "main": "index.js",
     "dependencies": {},
     "scripts": {
-        "test": "browserify test.js | tape-run",
+        "test": "browserify test.js  --debug | tape-run",
         "example": "budo example.js"
     },
     "devDependencies": {
-        "browserify": "^13.0.1",
-        "budo": "^8.3.0",
+        "browserify": "^16.5.0",
+        "budo": "^11.6.3",
         "computed-style": "^0.3.0",
         "dom-event": "^1.0.0",
-        "tape": "^4.6.0",
-        "tape-run": "^2.1.4"
+        "tape": "^4.11.0",
+        "tape-run": "^6.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/substack/insert-css.git"
+        "url": "git://github.com/bcomnes/insert-css2.git"
     },
-    "testling": {
-        "files": "test.js",
-        "browsers": [
-            "ie/6..latest",
-            "chrome/20..latest",
-            "firefox/10..latest",
-            "safari/latest",
-            "opera/11.0..latest",
-            "iphone/6",
-            "ipad/6"
-        ]
-    },
-    "homepage": "https://github.com/substack/insert-css",
+    "homepage": "https://github.com/bcomnes/insert-css2",
     "keywords": [
         "css",
         "insert",
@@ -51,6 +39,11 @@
         "name": "James Halliday",
         "email": "mail@substack.net",
         "url": "http://substack.net"
+    },
+    "contributors": {
+        "name": "Bret Comnes",
+        "url": "https://bret.io",
+        "email": "bcomnes@gmail.com"
     },
     "license": "MIT"
 }
